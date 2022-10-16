@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Norican&family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Norican&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  /* color: #916264;*/
+  color: rgb(63, 35, 13);
+}
+
+.sign_up {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 18%;
+  background-color: #ffe7e7;
+}
+
+.sign_up_text {
+  width: 40%;
+  color: #916264;
+  font-weight: 50px;
+}
+.sign_up_text1 {
+  width: 20%;
+  margin-top: 150px;
+  color: #916264;
+  font-weight: 50px;
+}
+
+.sign_up_form {
+  padding: 30px;
+  margin-top: 1%;
+  background-color: rgb(247, 241, 241);
+  border-radius: 15px;
+}
+
+.login-img {
+  width: 140%;
+  margin-left: -30%;
+}
+
+.sign_up_form h1 {
+  text-align: center;
+}
+
+.sign_up_form h4 {
+  margin-top: 10px;
+}
+
+.sign_up_form input {
+  width: 400px;
+  height: 60px;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#form_button {
+  text-align: center;
+  margin-bottom: 40px;
+}
+#form_button button {
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+#form_button p {
+  margin-top: 3%;
+}
+
+.form_icon {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.form_icon li {
+  margin: 25px;
+  font-size: xx-large;
+}
+.sign_up_with {
+  margin-left: 25%;
+  font-size: 20px;
+}
+#sign_up_with {
+  list-style: none;
+  display: flex;
+}
+#sign_up_with_icon1 {
+  margin-left: 30px;
+}
+#sign_up_with_icon2 {
+  margin-left: 30px;
+}
+#sign_up_with_icon3 {
+  margin-left: 30px;
+}
+
+#backhome {
+  text-decoration: none;
+  color: darkcyan;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  margin: 10px 0;
+  background-color: rgb(6, 126, 238);
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+}
+
+button#submit:hover {
+  background-color: burlywood;
+}
+
+#backhome:hover {
+  color: crimson;
+}
+
+#fb:hover {
+  color: blue;
+}
+
+#gg:hover {
+  color: rgb(235, 21, 21);
+}
+
+#tw:hover {
+  color: deepskyblue;
+}

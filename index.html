@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://kit.fontawesome.com/2e554e2698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./icon_web/VV.png"/>
+  
+    <title>VivoShop</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header_logo">
+          <img src="./images_main/logo.png" alt="logo">
+      </div>
+      <div class="header_login">
+          <div class="login_text">
+          <span>
+              <a href="./login.html">Đăng nhập </a>  
+              hoặc  
+              <a href="./signup.html"> Tạo tài khoản</a></br>
+          </span>
+          </div>
+          <div class="header_login_search">
+            <div>
+              <input type="text" placeholder="Tìm kiếm sản phẩm"></div>
+              <div class="xe">
+              <a  href="./cart.html"> <i id="spcart" class="fas fa-shopping-cart" > </i></a> 
+          </div>
+          </div>
+           
+      </div>
+  </div>
+  <div class="navigation">
+      <ul id="nav">
+          <li><a href="">ÁO</a>
+              <ul class="subnav">
+                  <li><a href="./aosomi.html">Sơmi</a></li>
+                  <li><a href="./aokieu.html">Áo kiểu</a></li>
+                  <li><a href="./aothun.html">Áo thun</a></li>
+              </ul>
+          </li>
+          <li><a href="">QUẦN</a>
+              <ul class="subnav">
+                  <li><a href="./quanjeans.html">Quần jeans</a></li>
+                  <li><a href="./quankieu.html">Quần kiểu</a></li>
+              </ul>
+          </li>
+          <li><a href="">VÁY</a>
+              <ul class="subnav">
+                  <li><a href="./chanvay.html">Chân váy</a></li>
+                  <li><a href="./dam.html">Đầm</a></li>
+              </ul>
+          </li>
+          <li><a href="">TIPS</a>
+              <ul class="subnav">
+                  <li><a href="./tip1.html">Đi học mặc gì ?</a></li>
+                  <li><a href="./tip2.html">Công sở mặc gì ?</a></li>
+                  <li><a href="./tip3.html">Tips phối màu đỉnh</a></li>
+              </ul>
+          </li>
+          <li><a href="./about.html">GIỚI THIỆU</a></li>
+          <li><a href="./contact.html">LIÊN HỆ</a></li>
+      </ul>
+  </div>
+
+  
+  <div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="./images_main/1.png" style="width:100%">     
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./images_main/2.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="./images_main/3.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
+    
+
+
+    <div class="main">
+      <div class="title">
+        <p>SẢN PHẨM MỚI</p>
+      </div>
+      <p id="more">Xem thêm...</p>
+      <div class="alllist">
+        <div class="list1">
+          <div class="ao1">
+            <div>
+              <img onclick="togglePopup()" class="resize" src="./images/aothungaunau.jpg" />
+              <figcaption>Áo Thun Gấu Nâu<br /><br>139,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao2">
+            <div>
+              <img class="resize" src="images/aodaymattrang.jpg" />
+              <figcaption>Áo Dây Mặt Trăng<br /><br>105,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao3">
+            <div>
+              <img class="resize" src="images/damhoa.jpg" />
+              <figcaption>Đầm Hoa Cột Nơ Eo<br /><br>270,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao4">
+            <div>
+              <img class="resize" src="images/aosomikieu.jpg" />
+              <figcaption>Sơ Mi Kiểu<br /><br>205,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao5">
+            <div>
+              <img class="resize" src="images/aokhaclen.jpg" />
+              <figcaption>Áo Khoác Len<br /><br>160,000đ</figcaption>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="title">
+          <p>SẢN PHẨM HOT</p>
+        </div>
+        <p id="more">Xem thêm...</p>
+        <div class="list2">
+          <div class="ao6">
+            <div>
+              <img class="resize" src="images/quanbaggy.jpg" />
+              <figcaption>Quần baggy<br /><br>190,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao7">
+            <div>
+              <img class="resize" src="images/somicovest.jpg" />
+              <figcaption>Sơ mi cổ vest trái dứa<br /><br>165,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao8">
+            <div>
+              <img class="resize" src="images/woolcoats.jpg" />
+              <figcaption>Wool Coats<br /><br>120,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao9">
+            <div>
+              <img class="resize" src="images/cottonbaggy.jpg" />
+              <figcaption>Cotton Baggy Trousers<br /><br>205,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao10">
+            <div>
+              <img class="resize" src="images/somitruyenthong.jpg" />
+              <figcaption>Sơ mi truyền thống<br /><br>165,000đ</figcaption>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="title">
+          <p>HÀNG MỚI VỀ</p>
+        </div>
+        <p id="more">Xem thêm...</p>
+        <div class="list3">
+          <div class="ao11">
+            <div>
+              <img class="resize" src="images/baggyjeans.jpg" />
+              <figcaption>Baggy Jeans<br /><br>190,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao12">
+            <div>
+              <img class="resize" src="images/aokhoaclen.jpg" />
+              <figcaption>Áo Khoác Len<br /><br>190,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao13">
+            <div>
+              <img class="resize" src="images/somicaro.jpg" />
+              <figcaption>Sơ Mi Caro Dệt Nổi<br /><br>240,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao14">
+            <div>
+              <img class="resize" src="images/linenshirt.jpg" />
+              <figcaption>Linen Shirt<br /><br>195,000đ</figcaption>
+            </div>
+          </div>
+          <div class="ao15">
+            <div>
+              <img class="resize" src="images/edging.jpg" />
+              <figcaption>Edging Jacket<br /><br>160,000đ</figcaption> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<!-----------------------------POPUP------------------------------>
+<div class="popup" id="popup-1">
+  <div class="overplay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup()">&times;</div>
+    <div class="content_left">
+      <img src="./images/aothungaunau.jpg" alt="">
+    </div>
+    <div class="content_right">    
+       <h1>Áo Thun Gấu Nâu</h1>
+       <h1>139,000đ</h1><br>
+       <p>Áo Thun được thiết kế in hình gấu nâu tạo điểm nhấn.</p>
+        <p> <i class="fas fa-location-arrow"></i> Chất liệu: Thun Cotton</p>
+        <p><i class="fas fa-location-arrow"></i> Form dáng: Croptop & Freesize</p>
+        <p><i class="fas fa-location-arrow"></i> Màu sắc:
+          <select class="chon">
+          <option value="Trắng">Trắng</option>
+          <option value="Xám">Xám</option>         
+          </select></p>
+        <p><i class="fas fa-location-arrow"></i> Sản xuất: Việt Nam.</p> 
+
+     
+    </div>
+    
+    
+    
+    <button>Thêm vào giỏ hàng</button>
+  </div>
+
+  </div>
+
+
+
+    <div class="wrapper">
+      <div class="grid">
+      <div class="logofooter">
+        <img id="logo-footer" src="./images_main/logo footer.png">
+      </div>
+        <div class="footer0">
+         
+          Your style, your choice
+        </div>
+        <div class="footer1">
+          <h3>Kết nối với Vivo</h3>
+          <ul class="inline-list social-icons">
+            <li>
+              <a
+                class="icon-fallback-text"
+                href="#"
+                title="Thương hiệu thời trang nữ on Facebook"
+              >
+                <span class="icon icon-facebook" aria-hidden="true"></span>
+                <span class="fallback-text"><i id="fb" class="fab fa-facebook-f"></i></span>
+              </a>
+            </li>         
+
+            <li>
+              <a
+                class="icon-fallback-text"
+                href="#"
+                title="Thương hiệu thời trang nữ on Instagram"
+              >
+                <span class="icon icon-tiktok" aria-hidden="true"></span>
+                <span class="fallback-text"><i id="tiktok" class="fab fa-tiktok"></i></span>
+              </a>
+            </li>
+
+            <li>
+              <a
+                class="icon-fallback-text"
+                href="#"
+                title="Thương hiệu thời trang nữ on Twitter"
+              >
+                <span class="icon icon-twitter" aria-hidden="true"></span>
+                <span class="fallback-text"><i id="tw" class="fab fa-twitter"></i></i></span>
+              </a>
+            </li>
+          </ul>
+          <div class="footercontent1">
+            <ul class="list-ketnoi">
+            <li><i id="icon1_footerconten1" class="fas fa-phone"></i> 090 789 3879 </li>
+            <li><i id="icon2_footerconten1" class="fas fa-map-marker-alt"></i> 12/2, Linh Trung, Q.Thủ Đức, HCM </li>
+              <li><i id="icon3_footerconten1" class="far fa-paper-plane"></i> vivoshop@gmail.com</li>
+    </ul>
+        </div>
+         
+        </div>
+
+        <!---->
+        <div class="footer2">
+          <h3>BẠN NÊN BIẾT</h3>
+        <div class="footercontent2">
+          <a href="#">Điều khoản chung</a><br />
+          <a href="#">Phương thức đặt hàng</a><br />
+          <a href="#">Thanh toán và giao nhận</a><br />
+          <a href="./chinhsachdoitra.html">Chính sách đổi trả</a><br />
+          <a href="#">Chính sách bảo mật</a><br />
+          <a href="#">Câu hỏi thường gặp</a><br />
+        </div>
+        </div>
+        
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/backtotop.js" ></script>
+    <i onclick="topFunction()" id="myBtn" title="Về đầu trang" class="fas fa-chevron-circle-up"></i>
+  </body>
+</html>

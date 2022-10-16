@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2e554e2698.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/cart.css">
+    <link rel="icon" type="image/png" href="./icon_web/VV.png"/>
+    <title>Giỏ hàng</title>
+</head>
+<body>
+    <body>
+        <div class="header">
+          <div class="header_logo">
+            <a href="./index.html">
+              <img src="./images_main/logo.png" alt="logo"></a>
+          </div>
+          <div class="header_login">
+              <div class="login_text">
+              <span>
+                  <a href="./login.html">Đăng nhập </a>  
+                  hoặc  
+                  <a href="./signup.html"> Tạo tài khoản</a></br>
+              </span>
+              </div>
+              <div class="header_login_search">
+                <div>
+                  <input type="text" placeholder="Tìm kiếm sản phẩm"></div>
+                  <div class="xe">
+                  <a  href="#"> <i id="spcart" class="fas fa-shopping-cart" > </i></a> 
+              </div>
+              </div>
+               
+          </div>
+      </div>
+      <div class="navigation">
+          <ul id="nav">
+              <li><a href="">ÁO</a>
+                  <ul class="subnav">
+                      <li><a href="./aosomi.html">Sơmi</a></li>
+                      <li><a href="./aokieu.html">Áo kiểu</a></li>
+                      <li><a href="./aothun.html">Áo thun</a></li>
+                  </ul>
+              </li>
+              <li><a href="">QUẦN</a>
+                  <ul class="subnav">
+                      <li><a href="./quanjeans.html">Quần jeans</a></li>
+                      <li><a href="./quankieu.html">Quần kiểu</a></li>
+                  </ul>
+              </li>
+              <li><a href="">VÁY</a>
+                  <ul class="subnav">
+                      <li><a href="./chanvay.html">Chân váy</a></li>
+                      <li><a href="./dam.html">Đầm</a></li>
+                  </ul>
+              </li>
+              <li><a href="">TIPS</a>
+                  <ul class="subnav">
+                      <li><a href="./tip1.html">Đi học mặc gì ?</a></li>
+                      <li><a href="./tip2.html">Công sở mặc gì ?</a></li>
+                      <li><a href="./tip3.html">Tips phối màu đỉnh</a></li>
+                  </ul>
+              </li>
+              <li><a href="./about.html">GIỚI THIỆU</a></li>
+          <li><a href="./contact.html">LIÊN HỆ</a></li>
+          </ul>
+      </div>
+      <div class="slider">
+        <div class="slider_img">       
+            <img src="./images_cart/cart_banner.png" >  
+        </div>
+    </div>
+
+<!--cart-->
+<div class="modal-body">
+  <div class="cart-row">
+      <span class="cart-item cart-header cart-column">Sản Phẩm</span>
+      <span class="cart-price cart-header cart-column">Giá</span>
+      <span class="cart-quantity cart-header cart-column">Số Lượng</span>
+  </div>
+  <div class="cart-items">
+      <div class="cart-row">
+      <div class="cart-item cart-column">
+          <img class="cart-item-image" src="./images/damhoa.jpg" width="100" height="100">
+          <span class="cart-item-title">Đầm Hoa</span>
+      </div>
+      <span class="cart-price cart-column">105 000đ</span>
+      <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="1">
+          <button class="btn btn-danger" type="button">Xóa</button>
+      </div>
+  </div>
+  <div class="cart-row">
+      <div class="cart-item cart-column">
+          <img class="cart-item-image" src="images/quanbaggy.jpg" width="100" height="100">
+          <span class="cart-item-title">Quần Bagy</span>
+      </div>
+      <span class="cart-price cart-column">190 000đ</span>
+      <div class="cart-quantity cart-column">
+          <input class="cart-quantity-input" type="number" value="2">
+          <button class="btn btn-danger" type="button">Xóa</button>
+      </div>
+  </div>
+  <div class="cart-total">
+      <strong class="cart-total-title">Tổng Cộng:</strong>
+      <span class="cart-total-price">295 000VNĐ</span>
+  </div>
+</div>
+</div>
+
+
+
+<!--footer-->
+      <div class="wrapper">
+        <div class="grid">
+        <div class="logofooter">
+          <img id="logo-footer" src="./images_main/logo footer.png">
+        </div>
+          <div class="footer0">
+           
+            Your style, your choice
+          </div>
+          <div class="footer1">
+            <h3>Kết nối với Vivo</h3>
+            <ul class="inline-list social-icons">
+              <li>
+                <a
+                  class="icon-fallback-text"
+                  href="#"
+                  title="Thương hiệu thời trang nữ on Facebook"
+                >
+                  <span class="icon icon-facebook" aria-hidden="true"></span>
+                  <span class="fallback-text"><i id="fb" class="fab fa-facebook-f"></i></span>
+                </a>
+              </li>         
+  
+              <li>
+                <a
+                  class="icon-fallback-text"
+                  href="#"
+                  title="Thương hiệu thời trang nữ on Instagram"
+                >
+                  <span class="icon icon-tiktok" aria-hidden="true"></span>
+                  <span class="fallback-text"><i id="tiktok" class="fab fa-tiktok"></i></span>
+                </a>
+              </li>
+  
+              <li>
+                <a
+                  class="icon-fallback-text"
+                  href="#"
+                  title="Thương hiệu thời trang nữ on Twitter"
+                >
+                  <span class="icon icon-twitter" aria-hidden="true"></span>
+                  <span class="fallback-text"><i id="tw" class="fab fa-twitter"></i></i></span>
+                </a>
+              </li>
+            </ul>
+            <div class="footercontent1">
+              <ul class="list-ketnoi">
+              <li><i id="icon1_footerconten1" class="fas fa-phone"></i> 090 789 3879 </li>
+              <li><i id="icon2_footerconten1" class="fas fa-map-marker-alt"></i> 12/2, Linh Trung, Q.Thủ Đức, HCM </li>
+                <li><i id="icon3_footerconten1" class="far fa-paper-plane"></i> vivoshop@gmail.com</li>
+      </ul>
+          </div>
+           
+          </div>
+  
+          <!---->
+          <div class="footer2">
+            <h3>BẠN NÊN BIẾT</h3>
+          <div class="footercontent2">
+            <a href="#">Điều khoản chung</a><br />
+            <a href="#">Phương thức đặt hàng</a><br />
+            <a href="#">Thanh toán và giao nhận</a><br />
+            <a href="./chinhsachdoitra.html">Chính sách đổi trả</a><br />
+            <a href="#">Chính sách bảo mật</a><br />
+            <a href="#">Câu hỏi thường gặp</a><br />
+          </div>
+          </div>
+          
+        </div>
+      </div>
+
+      <script src="./js/cart.js"></script>
+      <script src="./js/backtotop.js" ></script>
+    <i onclick="topFunction()" id="myBtn" title="Về đầu trang" class="fas fa-chevron-circle-up"></i>
+</body>
+</html>
